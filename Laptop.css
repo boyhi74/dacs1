@@ -1,0 +1,29 @@
+
+.quick-link {
+    background-color: #e0e0e0;
+    display: flex;
+    justify-content: center;
+    padding: 10px 12px;
+    max-width: 1050px;
+    margin: auto;
+    margin-top: 20px;
+    border-radius: 10px;
+}
+.quick-link img {
+    height: 35px;
+    border-radius: 20px;
+    margin-right: 10px;
+    transition: transform 0.2s ease-in-out; /* thêm hiệu ứng chuyển động khi hover */
+  }
+  
+.quick-link img:hover {
+    /* border-width: 1px; */
+    box-shadow: 0 0 0 1.9px #f50808;
+    /* transform: scale(1.3); tăng kích thước phần tử khi hover */
+  }
+header img{
+  width: 1519px;
+  height: 80px;
+}  
+  
+
